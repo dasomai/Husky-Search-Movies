@@ -1,0 +1,148 @@
+*,
+::after,
+::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E7F6F2;
+    color: #395B64;
+    font-size: 1.2rem;
+
+
+}
+
+.container{
+    padding: 0 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 100vh;
+    margin: 0 auto;
+
+}
+
+.main{
+    flex-grow: 1;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo .husky-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-title{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.list-link{
+    display: flex;
+
+}
+
+.list-link {
+    list-style: none;
+
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+
+}
+
+.husky-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.husky-fun{
+    width: 15%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+}
+
+
+.search-box{
+    width: 50%;
+    padding: 0.7rem;
+    border-radius: 10px;
+    font-size: inherit;
+    outline: none;
+    border: 1.5px solid #2C3333;
+}
+
+.search-box:focus{
+    
+    border: 2px solid #395B64;
+    
+}
+
+
+.btn{
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #395B64;
+    color: white;
+    padding: .5em 0.7em;
+    font-size: inherit;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: #44707c;
+}
+
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    flex-direction: row;
+}
+
+.movie-card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: black;
+    flex-basis: 0;
+    text-align: center;
+    align-self: normal;
+    border: 1px solid #395B64;
+    cursor: pointer;
+}
+
+
+.movie-card:hover{
+    border: 2px solid #A5C9CA;
+    box-shadow: 5px 5px lightblue;
+}
